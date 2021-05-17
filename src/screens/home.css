@@ -1,0 +1,249 @@
+.fS20{ font-size: 20px;}
+.fS22{ font-size: 22px;}
+.fS23{ font-size: 23px;}
+.fS24{ font-size: 24px;}
+.fS25{ font-size: 25px;}
+.fS26{ font-size: 26px;}
+.fS27{ font-size: 27px;}
+.fS28{ font-size: 28px;}
+.fS29{ font-size: 29px;}
+.fS30{ font-size: 30px;}
+.fS31{ font-size: 31px;}
+
+
+.te-do{text-decoration: none !important;}
+.dis-f{display: flex; }
+.f-wrep{flex-wrap: wrap;}
+.js-c{justify-content: center;}
+.jc-L{justify-content: left;}
+.ali-c{align-items: center;}
+.jc-Sb{justify-content: space-between;}
+.jc-Sa{justify-content: space-around;}
+.t-ali{text-align: left;}
+
+.mr{
+    margin: 0px 10px 0px 10px ;
+    padding: 10;
+}
+
+
+
+
+/* header css */
+
+.HeaderSection1{
+    background-color:#f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    border: 6px solid transparent !important;
+    border-color:orange!important;  
+    padding: 0px 20px 0px 20px !important;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 4px 5px 0 rgb(0 0 0 / 14%) !important;
+    
+    border-radius: 50px !important;
+   
+}
+.form-control{
+    border:none !important;
+    background:#f8f9fa !important;
+    
+}
+.d-flex{
+    border: .5px solid black !important;
+}
+
+.dropdown{
+    border: none;
+    background: none;
+    margin-top: 1px;
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: 100% !important;
+    right: 0% !important;
+    left: auto;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 14.6rem !important;
+    padding: 0 !important;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px !important;
+}
+
+.searchbtn{
+    border: none;
+    background: #002f34;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    color: white;
+}
+.serchbar2{
+    width: 450px;
+    height: 40px;
+}
+
+
+
+.HeaderSection2{
+    background-color:#f8f9fa;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: rgb(13, 170, 168) !important;
+}
+.serchbar1{
+     width: 239px;
+     height: 40px;
+     padding: 2px 2px 2px 5px;
+}
+/* header css */
+
+/* maincontainer */
+
+.ads1{
+    height: 200px;
+    background: tomato;
+}
+.ads2{
+    height: 300px;
+    background: rgb(182, 248, 2);
+}
+
+.based-on-your-last-serch{
+    background:#ebeeef;;
+    max-width: 1100px;
+    padding: 10px;
+}
+
+.all-users-data{
+    max-width: 1100px;
+    margin-top: 10px;
+}
+
+.inner-main-container{
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.card-text{
+    margin-bottom: 0px;
+}
+.Card-main-container{
+    margin: 10px 10px 10px 10px !important;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+/* maincontainer */
+
+.olxapp{
+    display: flex;
+    justify-content: center;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+
+}
+.iner-olx-divs{
+    
+  }
+.link-img-div-app{
+    border-left: 1px solid rgba(52, 65, 66, 0.64);
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+/* margin between footer links */
+.mar-bt-ft-link{
+      margin: 0  !important; 
+      width: 240px !important;
+      text-align: left !important;
+      text-decoration: none;
+    }
+
+.li-foot-link {
+    
+        list-style-type: none;
+        text-decoration: none !important;
+        
+}
+.li-foot-link a{
+    
+    list-style-type: none;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    color:rgba(0,47,52,.64) !important;
+}
+ 
+.s-i-f{
+     padding-bottom: 50px;
+}
+.iconCircle{
+    border-radius: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:10px ;
+    padding:2px;
+    border: 1px solid rgba(0,47,52,.64);
+    color: rgba(0,47,52,.64);
+}
+.social-div{
+    display: inline-flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foot-sec-2{
+    flex-wrap: wrap;
+}
+
+.footbar{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  background: #002f34 ;
+  color: #fff;
+  padding: 15px 0px 15px 0px;
+}
+
+
+
+
+
+
+
+
